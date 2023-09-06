@@ -1,0 +1,49 @@
+.menu {
+  background-color: $menu-bg-color;
+}
+
+
+.menulisttext {
+  float: left;
+  color: $text-color1;
+  margin-right: 25px;
+  padding-top: 41px;
+  padding-bottom: 41px;
+}
+
+.lastmenulisttext {
+  float: left;
+  color: $text-color1;
+  margin-right: 75px;
+  padding-top: 41px;
+  padding-bottom: 41px;
+}
+
+.bigmenu  {
+  float: left;
+  color: $text-color1;
+  font-size: 48px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.smallmenu {
+  font-size: 18px;
+}
+
+.menulist {
+  float: right;
+}
+
+
+.linking  {
+  @include link;
+  color: $text-color1;
+}
+
+.menuicon {
+  margin-right: 12px;
+  float: left;
+  padding-top: 29px;
+  padding-bottom: 29px;
+}

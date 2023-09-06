@@ -1,0 +1,80 @@
+.portfolio {
+  background-color: $port-bg-color;
+  padding-bottom: 100px;
+}
+
+
+.portfoliotitle {
+  padding-top: 57px;
+  text-align: center;
+  font-size: 48px;
+  color: $text-color1;
+}
+
+
+.portfoliotext {
+  text-align: center;
+  font-size: 24px;
+  color: $text-color1;
+  padding-bottom: 47px;
+}
+
+.firstimage {
+  max-width: 470px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  margin-bottom: -4px;
+}
+
+.firstimage .imagehover {
+  @include hovereffects;
+  background-image:url("../images/firsthover.png");
+}
+
+.firstimage:hover .imagehover {
+  opacity: 1;
+}
+
+
+
+.secondimage {
+  max-width: 235px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  margin-bottom: -4px;
+}
+
+
+.secondimage .secondimagehover {
+  @include hovereffects;
+  background-image:url("../images/secondhover.png");
+}
+
+.secondimage:hover .secondimagehover {
+  opacity: 1;
+}
+
+
+
+.thirdimage {
+  max-width: 235px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  margin-bottom: -4px;
+}
+
+
+.thirdimage .thirdimagehover {
+  @include hovereffects;
+  background-image:url("../images/thirdhover.png");
+}
+
+.thirdimage:hover .thirdimagehover {
+  opacity: 1;
+}

@@ -1,0 +1,47 @@
+.contacts {
+  background-image: url("../images/contactbg.png");
+  @include background;
+}
+
+.contactstitle {
+  padding-top: 55px;
+  font-size: 48px;
+  color: $text-color2;
+  text-align: center;
+}
+
+.contactsnumber {
+  font-size: 48px;
+  color: $text-color1;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 23px;
+}
+
+.contactsemail {
+  font-size: 48px;
+  color: $text-color1;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  letter-spacing: 5px;
+  border: 5px solid $text-color1;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.contactsadress {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 30px;
+  color: $text-color1;
+}
+
+.contactscopyright {
+  padding-top: 110px;
+  font-size: 14px;
+  color: $text-color1;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 35px;
+}

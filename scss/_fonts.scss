@@ -1,0 +1,54 @@
+@font-face  {
+  font-family: 'Bebas';
+  src: url('../fonts/BebasNeue-Regular.ttf') format('truetype'),
+     url('../fonts/BebasNeue-Regular.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),  
+       url('../fonts/OpenSans.woff') format('woff'), 
+       url('../fonts/OpenSans.ttf')  format('truetype'), 
+       url('../fonts/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  @include bebasfont;
+}
+
+.newsbody {
+  @include opensansfont;
+}
+
+.tags2 {
+  @include bebasfont;
+}
+
+.biotitle {
+  @include bebasfont;
+}
+
+.biofirsttitle {
+  @include bebasfont;
+}
+
+.biosecondtitle {
+  @include bebasfont;
+}
+
+.biosecondcontent {
+  @include opensansfont;
+}
+
+.contacts {
+  @include bebasfont;
+}
+
+.contactscopyright {
+  @include opensansfont;
+}

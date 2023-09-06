@@ -1,0 +1,23 @@
+.headertext {
+  font-size: 90px;
+  color: $text-color1;
+};
+
+
+.smallheadertext  {
+  font-size: 36px;
+  color: $text-color1;
+};
+
+.firstheader {
+  padding-top: 125px;
+};
+
+.lastheader {
+  padding-bottom: 147px;
+};
+
+.header {
+  background-image: url("../images/t2header.png");
+  @include background;
+}

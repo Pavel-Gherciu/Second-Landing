@@ -1,0 +1,33 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.maxwidth {
+  @include maxwidth;
+}
+
+.sponsors {
+  background-image: url('../images/sponsor.png');
+  @include background;
+  text-align: center;
+}
+
+
+
+@import "header";
+@import "menu";
+@import "portfolio";
+@import "testimony";
+@import "news";
+@import "bio";
+@import "contacts";

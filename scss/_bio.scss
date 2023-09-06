@@ -1,0 +1,71 @@
+.bio { 
+  background-color: $news-tags-color2;
+  padding-bottom: 51px;
+ }
+
+ .biotitle {
+  padding-top: 50px;
+  font-size: 48px;
+  color: $text-color2;
+  text-align: center;
+}
+
+.biocontent {
+  padding-top: 60px;
+  margin: 0 auto;
+}
+
+.biofirstrow {
+  width: 470px;
+  float: left;
+}
+
+.biofirsttitle {
+  font-size: 36px;
+  color: $text-color1;
+  text-align: center;
+}
+
+.bioavatar {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.iconrow {
+  text-align: center;
+}
+
+.bioicon {
+  margin-right: 12px;
+  display: inline-block;
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+
+.biosecondrow {
+  width: 490px;
+  float: left;
+}
+
+.biosecondcontent {
+  padding-left: 20px;
+}
+
+.biosecondtitle {
+  font-size: 18px;
+  color: $text-color1;
+}
+
+.biosecondtext1 {
+  padding-top: 20px;
+  font-size: 14px;
+  color: $text-color1;
+  font-weight: 400;
+}
+
+.biosecondtext2 {
+  padding-top: 20px;
+  font-size: 14px;
+  color: $text-color1;
+  font-weight: 400;
+}
